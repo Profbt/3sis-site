@@ -49,39 +49,39 @@
 
                     if imc > 40:
 
-                        categoria = 'obesidade grau III'
+                    categoria = 'obesidade grau III'
 
-                        mensagem = 'Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.'
-
-
-                            elif 35.0 <= imc <=39.9:
-
-                            categoria = 'obesidade grau II'
-
-                            mensagem = 'Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida com o acompanhamento próximo de profissionais de saúde.'
+                    mensagem = 'Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.'
 
 
+                    elif 35.0 <= imc <=39.9:
 
-                            elif 30.0 <= imc <=34.9:
+                    categoria = 'obesidade grau II'
 
-                            categoria = 'obesidade grau I'
-
-                            mensagem = 'Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a mudanças hoje! Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.'
+                    mensagem = 'Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida com o acompanhamento próximo de profissionais de saúde.'
 
 
 
-                            elif 25.0 <= imc <=29.9:
+                    elif 30.0 <= imc <=34.9:
 
-                            categoria = 'sobrepeso'
+                    categoria = 'obesidade grau I'
 
-                            mensagem = 'Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doença associadas, como diabetes e hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa da obesidade pra valer.'
+                    mensagem = 'Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a mudanças hoje! Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.'
 
 
-                            elif 18.6 <= imc <=24.9:
 
-                            categoria = 'normal'
+                    elif 25.0 <= imc <=29.9:
 
-                            mensagem = 'Que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida ativo e uma alimentação equilibrada.'
+                    categoria = 'sobrepeso'
+
+                    mensagem = 'Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doença associadas, como diabetes e hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa da obesidade pra valer.'
+
+
+                    elif 18.6 <= imc <=24.9:
+
+                    categoria = 'normal'
+
+                    mensagem = 'Que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida ativo e uma alimentação equilibrada.'
 
 
                     else: # se não for nenhum outro só pode ser esse (IMC <=18.5)
