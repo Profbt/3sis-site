@@ -239,3 +239,35 @@ footer h3 {
         margin-right: 0;
     }
 }
+
+
+.dicas {
+    background: linear-gradient(135deg, #f0f4ff, #ffffff);
+    border-left: 5px solid #4a6bdb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.dicas h3 {
+    color: #2d3748;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.dicas ul {
+    list-style: none;
+    padding-left: 0;
+}
+.dicas li {
+    color: black;
+    padding: 8px 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+.dicas li::before {
+    content: "\f05a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #4a6bdb;
+    margin-right: 10px;
+}
