@@ -24,6 +24,10 @@ body {
     transform: scale(1.05);
 }
 
+#icon {
+font-size: 1.8rem;
+}
+
 .menu-item {
     margin: 0 5px;
     font-weight: 500;
